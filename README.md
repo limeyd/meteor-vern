@@ -1,6 +1,5 @@
 #Initial Release -- (WORK IN PROGESS)
 
-
 ## Usage
 
 create common VERSION variable
@@ -8,10 +7,15 @@ create common VERSION variable
 **Add version number link to template
 {{> vern_info }}
 
-**Add modal to bottom of index.html template
-{{> vern_info_modal }}
+**This currently only looks for a template called History.
 
-**Create a History.md file
-this will be loaded into the modal change-log tab
+**You can use markd to generate templates from your md files.
+mrt add markd
+touch History.md # fill it with content
+that's it!
 
-Note: this uses meteor-markd for creating templates from md files
+## TODO
+* Definable tabs
+
+**Dependencies: 
+* uses bootstrap modal and tabs so install either bootstrap or bootstrap-jasny
