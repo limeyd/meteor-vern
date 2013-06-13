@@ -1,0 +1,12 @@
+{
+  "name": "vern",
+  "description": "Adds Application Information",
+  "author": "Darren Pearce (https://github.com/limeyd)",
+  "homepage": "https://github.com/limeyd/meteor-vern",
+  "version": "0.0.1",
+  "git": "https://github.com/limeyd/meteor-vern.git",
+  "packages": {
+    "markd":{},
+    "bootstrap-jasny":{}
+  }
+}
