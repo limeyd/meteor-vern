@@ -13,3 +13,5 @@ create common VERSION variable
 
 **Create a History.md file
 this will be loaded into the modal change-log tab
+
+Note: this uses meteor-markd for creating templates from md files
