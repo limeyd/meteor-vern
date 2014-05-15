@@ -4,6 +4,7 @@ Package.describe({
 
 Package.on_use(function (api) {
   
+  api.export('vern');
   // Client
   api.use(['templating'], 'client');
 

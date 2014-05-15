@@ -3,7 +3,7 @@
   "description": "Adds Application Information",
   "author": "Darren Pearce (https://github.com/limeyd)",
   "homepage": "https://github.com/limeyd/meteor-vern",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "git": "https://github.com/limeyd/meteor-vern.git",
   "packages": {}
 }
